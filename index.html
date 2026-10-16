@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBook | Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">✈ Travel<span>Book</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#booking">Book Trip</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#booking" class="nav-btn">Book Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">EXPLORE • DREAM • DISCOVER</p>
+            <h1>Your Next Adventure <br>
+                <span>Starts Here!</span>
+            </h1>
+
+            <p class="hero-text">
+                Discover amazing destinations, find the best deals,
+                and make memories that last forever.
+            </p>
+
+            <a href="#booking" class="primary-btn">Explore Trips →</a>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section class="booking-section" id="booking">
+        <div class="booking-box">
+            <h2>Find Your Perfect Trip</h2>
+            <p>Fill in your travel details to get started.</p>
+
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <input type="text" id="destination"
+                        placeholder="Where do you want to go?" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="departure">Departure Date</label>
+                    <input type="date" id="departure" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="travelers">Travelers</label>
+                    <select id="travelers">
+                        <option>1 Traveler</option>
+                        <option>2 Travelers</option>
+                        <option>3 Travelers</option>
+                        <option>4+ Travelers</option>
+                    </select>
+                </div>
+
+                <button type="submit">Search Trips 🔍</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Popular Destinations -->
+    <section class="destinations" id="destinations">
+        <div class="section-heading">
+            <div>
+                <h2>Popular Destinations</h2>
+                <p>Explore the most loved places around the world.</p>
+            </div>
+        </div>
+
+        <div class="destination-grid">
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
+                    alt="Beautiful Bali">
+                <div class="card-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>🏝 Beaches & Adventure</p>
+                    <div class="card-bottom">
+                        <span>From ₹28,999</span>
+                        <a href="#booking" aria-label="Explore Bali">→</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80"
+                    alt="Paris city view">
+                <div class="card-content">
+                    <h3>Paris, France</h3>
+                    <p>🗼 Romance & Culture</p>
+                    <div class="card-bottom">
+                        <span>From ₹52,999</span>
+                        <a href="#booking" aria-label="Explore Paris">→</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80"
+                    alt="Dubai skyline">
+                <div class="card-content">
+                    <h3>Dubai, UAE</h3>
+                    <p>🌆 Luxury & Shopping</p>
+                    <div class="card-bottom">
+                        <span>From ₹34,999</span>
+                        <a href="#booking" aria-label="Explore Dubai">→</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="destination-card">
+                <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80"
+                    alt="Mountain landscape">
+                <div class="card-content">
+                    <h3>Manali, India</h3>
+                    <p>🏔 Mountains & Nature</p>
+                    <div class="card-bottom">
+                        <span>From ₹12,999</span>
+                        <a href="#booking" aria-label="Explore Manali">→</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features" id="about">
+        <h2>Why Choose TravelBook?</h2>
+
+        <div class="feature-grid">
+            <div class="feature">
+                <div class="feature-icon">🛡️</div>
+                <h3>Safe & Secure</h3>
+                <p>Your travel planning experience matters to us.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">💰</div>
+                <h3>Best Prices</h3>
+                <p>Discover great deals for your next adventure.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🎧</div>
+                <h3>24/7 Support</h3>
+                <p>We're here to help you plan your journey.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">⭐</div>
+                <h3>Trusted Travel</h3>
+                <p>Make every trip special and memorable.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#home" class="logo">✈ Travel<span>Book</span></a>
+        <p>Your journey begins with a single click.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#booking">Book Trip</a>
+            <a href="#about">About Us</a>
+        </div>
+        <p class="copyright">
+            © 2026 TravelBook. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
